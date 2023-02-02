@@ -8,26 +8,30 @@ const router = createBrowserRouter([
 		element: <Layout />,
 		errorElement: <Error404 />,
 		children: [
+			// {
+			// 	path: '/',
+			// 	element: <Home />,
+			// },
 			{
 				path: '/',
-				element: <Home />,
-			},
-			{
-				path: '/movie',
 				element: <MovieList />,
 			},
+			// {
+			// 	path: '/movie',
+			// 	element: <MovieList />,
+			// },
 			{
 				path: '/movie/:movie_id',
 				element: <Movie />,
 			},
-			{
-				path: '/tv',
-				element: <TVShowList />,
-			},
-			{
-				path: '/tv/:tv_id',
-				element: <TVShow />,
-			},
+			// {
+			// 	path: '/tv',
+			// 	element: <TVShowList />,
+			// },
+			// {
+			// 	path: '/tv/:tv_id',
+			// 	element: <TVShow />,
+			// },
 		],
 	},
 ]);

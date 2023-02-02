@@ -13,18 +13,18 @@ type NavigationProps = {
 
 const defaultNavigationProps = {
 	navItems: [
-		{
-			label: 'Home',
-			location: '/',
-		},
+		// {
+		// 	label: 'Home',
+		// 	location: '/',
+		// },
 		{
 			label: 'Movies',
-			location: '/movie?sort=popular',
+			location: '?sort=popular',
 		},
-		{
-			label: 'TV Shows',
-			location: '/tv?sort=popular',
-		},
+		// {
+		// 	label: 'TV Shows',
+		// 	location: '/tv?sort=popular',
+		// },
 	],
 };
 
